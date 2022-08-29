@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Basketball Score</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="headline ">HOME</h3>
+                <div>
+                	<p id="score1" class="text">0</p>
+                </div>
+                <div class="botones">
+	                  <button id="boton1" onclick="add1()">+1</button>
+              		  <button id="boton2" onclick="add2()">+2</button>
+              		  <button id="boton3" onclick="add3()">+3</button>
+                </div>
+                    
+                
+            </div>
+            <div>
+                <h3 class="headline ">GUEST</h3>
+                <div>
+                	<p id="score2" class="text">0</p>
+				</div>
+				<div class="botones">
+	                  <button id="boton1" onclick="add1pt()">+1</button>
+              		  <button id="boton2" onclick="add2pt()">+2</button>
+              		  <button id="boton3" onclick="add3pt()">+3</button>
+                </div>
+            </div>
+            <div class="reset">
+            	<button onclick="reset()">RST</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
