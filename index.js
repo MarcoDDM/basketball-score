@@ -38,4 +38,6 @@ function add3pt() {
 function reset() {
 	score1.textContent = 0
 	score2.textContent = 0
+	count1 = 0
+	count2 = 0
 }
