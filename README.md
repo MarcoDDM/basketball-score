@@ -3,7 +3,11 @@ This is a basketball score app that allows users to keep track of the score of a
 
 Users can add points to each team by clicking on the appropriate buttons, and the app displays the current period and allows users to update it.
 
-Technologies used: HTML, CSS, vanilla JavaScript.
+Technologies used: 
+
+- HTML 
+- CSS 
+- Vanilla JavaScript.
 
 **Main features:**
 
